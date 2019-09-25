@@ -1,5 +1,3 @@
-# seminar 4
-
 from math import sin
 
 def myFunc(str1):  # str1 - обязательный параметр
