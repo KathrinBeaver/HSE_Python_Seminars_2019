@@ -1,5 +1,3 @@
-# seminar 9.z1
-
 import os
 
 path = ".\\goods"
