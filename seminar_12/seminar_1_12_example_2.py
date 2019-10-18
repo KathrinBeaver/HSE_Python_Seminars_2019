@@ -14,6 +14,12 @@ class Tree():
     def getKind(self):
         return self.__kind
 
+    def getHeight(self):
+        return self.__height
+
+    def __lt__(self, other):
+        return self.__height < other.getHeight()
+
 class FruitTree(Tree):  # FruitTree - наследник класса Tree
     def __init__(self, kind, height, group="unknown"):
         super().__init__(kind, height)
@@ -31,8 +37,6 @@ tree2.info()
 tree2.giveFruits()
 # А для родительского экземпляра метод give_fruits() недоступен
 # tree1.give_fruits() # Вызовет ошибку
-
-
 
 trees = (tree1, tree2)
 sorted(trees)
