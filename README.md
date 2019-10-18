@@ -27,3 +27,4 @@ https://pythonworld.ru/moduli/modul-functools.html
 
 18.10.2019 - ООП, исключения
 
+*regexp - немного о регулярных выражениях
