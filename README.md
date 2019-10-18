@@ -21,6 +21,9 @@
 11.10.2019 - словари, начало функционального програмирования
 
 16.10.2019 - функциональное програмирование, начало ООП
+Полезные функции: 
+https://pythonworld.ru/moduli/modul-itertools.html
+https://pythonworld.ru/moduli/modul-functools.html
 
 18.10.2019 - ООП, исключения
 
